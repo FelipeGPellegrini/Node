@@ -14,7 +14,6 @@ app.get("/blog/:artigo?", function(req, res) {
         res.send("Bem vindo ao meu blog!")
     }
 
-    
 })
 
 app.get("/canal/youtube", function(req, res) {
